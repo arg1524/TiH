@@ -13,16 +13,21 @@
              <label for="menu-toggle">☰</label> 
                <a href="about.html">ABOUT</a> 
                 <a href="v1.html">v1</a> 
-                 <a href="random.html">RANDOM DAY/a>
+                 <a href="random.html">RANDOM DAY</a>
              </nav>
 <header>
 <body>
 <h1>Today In History</h1>
 <figure> <img src="https://nssdc.gsfc.nasa.gov/image/spacecraft/apollo_subsat.jpg"
  placeholder image"> <figcaption>
- <h3>
- 1971
-  </h3>
+ <div>
+n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+<p id="date"></p>
+ </div>
  <br>
  <h4>
 The U.S. launches the first satellite into lunar orbit from a manned spacecraft (Apollo 15).
