@@ -15,18 +15,19 @@
                 <a href="v1.html">v1</a> 
                  <a href="random.html">RANDOM DAY</a>
              </nav>
-      <h1 style="color:#E7BF60;"> Today In History</h1>
+      
 </header>   
 <body>
 <article>
-            <script>
+<h1 style="color:#E7BF60;"> Today In History</h1>
+<p id="date"></p>
+<script type "text/javascript">
 n =  new Date();
 y = n.getFullYear();
 m = n.getMonth() + 1;
 d = n.getDate();
-    document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
-    </script>
-<h2 id="date"></h2>
+document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+</script>
 <figure> <img src="https://nssdc.gsfc.nasa.gov/image/spacecraft/apollo_subsat.jpg"
  placeholder image"> <figcaption>
  <h4>
