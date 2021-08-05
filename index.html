@@ -21,10 +21,12 @@
 <figure> <img src="https://nssdc.gsfc.nasa.gov/image/spacecraft/apollo_subsat.jpg"
  placeholder image"> <figcaption>
  <div>
+    <script>
 n =  new Date();
 y = n.getFullYear();
 m = n.getMonth() + 1;
 d = n.getDate();
+    </script>
 document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
 <p id="date"></p>
  </div>
