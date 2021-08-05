@@ -18,24 +18,19 @@
 <header>
 <body>
 <h1>Today In History</h1>
-<figure> <img src="https://nssdc.gsfc.nasa.gov/image/spacecraft/apollo_subsat.jpg"
- placeholder image"> <figcaption>
- <div>
-    <script>
+            <script>
 n =  new Date();
 y = n.getFullYear();
 m = n.getMonth() + 1;
 d = n.getDate();
     document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
     </script>
-
-<p id="date"></p>
- </div>
- <br>
+<h2 id="date"></h2>
+<figure> <img src="https://nssdc.gsfc.nasa.gov/image/spacecraft/apollo_subsat.jpg"
+ placeholder image"> <figcaption>
  <h4>
 The U.S. launches the first satellite into lunar orbit from a manned spacecraft (Apollo 15).
   </h4>
 </figcaption> </figure>
-  
 </body>
 </html>
